@@ -20,7 +20,7 @@ scrape the content once it's loaded and save it as text in simple, minimalistic 
 * [Getting Started](https://github.com/delicmakaveli/Simple-Quora-Backup#getting-started)
 * [Deployment](https://github.com/delicmakaveli/Simple-Quora-Backup#deployment)
 * [Author](https://github.com/delicmakaveli/Simple-Quora-Backup#author)
-* [Licence](https://github.com/delicmakaveli/Simple-Quora-Backup#licence)
+* [License](https://github.com/delicmakaveli/Simple-Quora-Backup#license)
 * [Acknowledgements](https://github.com/delicmakaveli/Simple-Quora-Backup#acknowledgements)
 
 ## Built With
@@ -61,7 +61,7 @@ Although this was tested only on Windows and 64bit Linux(Ubuntu) it should run o
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/delicmakaveli/Simple-Quora-Backup/blob/master/LICENCE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/delicmakaveli/Simple-Quora-Backup/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
