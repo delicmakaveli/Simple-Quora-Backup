@@ -51,6 +51,11 @@ After that just run the scripts:
 * for BOOKMARKS run [backup_bookmarks.py](https://github.com/delicmakaveli/Simple-Quora-Backup/blob/master/backup_bookmarks.py)
 * for ANSWERS run [backup_answers.py](https://github.com/delicmakaveli/Simple-Quora-Backup/blob/master/backup_answers.py)
 
+After that...
+
+In the same directory each script will create it's own folder containing the text files to which the content
+was saved in a plain, simple, minimalistic text form.
+
 ## Deployment
 
 Although this was tested only on Windows and 64bit Linux(Ubuntu) it should run on all platforms that support Python and all the modules used.
