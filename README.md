@@ -1,78 +1,53 @@
-# Project Title
+# Simple Quora Backup
 
-One Paragraph of project description goes here
+**Web Scraper and Crawler used to backup Quora Bookmarks and Answers.**
 
-## Getting Started
+**Note 1:** The scripts may not work due to changes on Quora's end in terms of HTML code.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+**Note 2:** Quora forbids scraping and has made it very difficult by using lazy loading. These scripts get around it but 
+they are still slow in comparison to some scrapers that just need to send a HTTP request and parse the response.
 
-### Prerequisites
+**Simple Quora Backup** is a project I made for personal use to backup my Bookmarks and Answers on Quora.
+I made it in case I have to access the content but I don't have internet or if Quora, for whatever reason, disappears :).
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+The basic idea is to run the scripts, let them log in to Quora automatically, crawl through pages, scroll through content, 
+scrape the content once it's loaded and save it as text in simple, minimalistic fashion.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python 3.5](https://www.python.org/doc/) - Program was written in this language only
+* [Selenium](http://selenium-python.readthedocs.io/) - Used for automating clicking and scrolling to get around lazy loading
+* [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#) - Used for Web Scraping 
 
-## Contributing
+## Prerequisites
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+What things you need to install and run the software:
 
-## Versioning
+* [Python 3.5+](https://www.python.org/doc/)
+* [Selenium](http://selenium-python.readthedocs.io/)
+* [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#)
+* [textwrap](https://docs.python.org/3.5/library/textwrap.html#module-textwrap)
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+## Getting Started
 
-## Authors
+This will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+Just [download](https://github.com/delicmakaveli/Simple-Quora-Backup/archive/master.zip) and extract the project master-folder.
+
+Make sure you have everything from the Prerequisites above.
+
+After that just run the scripts:
+
+* for BOOKMARKS run backup_bookmarks.py
+* for ANSWERS run backup_answers.py
+
+## Deployment
+
+Although this was tested only on Windows and 64bit Linux(Ubuntu) it should run on all platforms that support Python and all the modules used.
+
+## Author
+
+* **Stefan Delic** - *Creation and Initial work* - [delicmakaveli](https://github.com/delicmakaveli)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -82,6 +57,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Hats off to the good people who wrote the code for all the modules that made building stuff with Python easier and faster.
