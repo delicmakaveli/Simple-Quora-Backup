@@ -13,6 +13,16 @@ I made it in case I have to access the content but I don't have internet or if Q
 The basic idea is to run the scripts, let them log in to Quora automatically, crawl through pages, scroll through content, 
 scrape the content once it's loaded and save it as text in simple, minimalistic fashion.
 
+## Contents:
+
+* [Built With](https://github.com/delicmakaveli/Simple-Quora-Backup#built-with)
+* [Prerequisites](https://github.com/delicmakaveli/Simple-Quora-Backup#prerequisites)
+* [Getting Started](https://github.com/delicmakaveli/Simple-Quora-Backup#getting-started)
+* [Deployment](https://github.com/delicmakaveli/Simple-Quora-Backup#deployment)
+* [Author](https://github.com/delicmakaveli/Simple-Quora-Backup#author)
+* [Licence](https://github.com/delicmakaveli/Simple-Quora-Backup#licence)
+* [Acknowledgements](https://github.com/delicmakaveli/Simple-Quora-Backup#acknowledgements)
+
 ## Built With
 
 * [Python 3.5](https://www.python.org/doc/) - Program was written in this language only
@@ -38,8 +48,8 @@ Make sure you have everything from the Prerequisites above.
 
 After that just run the scripts:
 
-* for BOOKMARKS run backup_bookmarks.py
-* for ANSWERS run backup_answers.py
+* for BOOKMARKS run [backup_bookmarks.py](https://github.com/delicmakaveli/Simple-Quora-Backup/blob/master/backup_bookmarks.py)
+* for ANSWERS run [backup_answers.py](https://github.com/delicmakaveli/Simple-Quora-Backup/blob/master/backup_answers.py)
 
 ## Deployment
 
@@ -49,11 +59,9 @@ Although this was tested only on Windows and 64bit Linux(Ubuntu) it should run o
 
 * **Stefan Delic** - *Creation and Initial work* - [delicmakaveli](https://github.com/delicmakaveli)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/delicmakaveli/Simple-Quora-Backup/blob/master/LICENCE) file for details
 
 ## Acknowledgments
 
