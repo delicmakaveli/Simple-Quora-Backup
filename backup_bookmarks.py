@@ -11,11 +11,17 @@ print('Thank you for using Simple Quora Backup')
 print('This will backup your BOOKMARKS to a text file in the simplest form, ')
 print('so there are no images, links, etc, just simple text')
 print('This is just in case Quora disappears some day :)')
+print('\n')
+print('NOTE:', 'Chrome WebDriver is buggy so it gets stuck sometimes during login or loading pages')
+print('if that happens just close it and run the script again.')
+print('\n')
+
 boolean = True
 
 osType = None
 bit = None
-path = 'a'
+path = None
+
 while boolean:
     osType = input('Please type in your operating system (windows, mac, linux)')
     if osType == 'windows':
@@ -74,6 +80,7 @@ print('Starting Chrome WebDriver...')
 browser = webdriver.Chrome(executable_path=path)
 browser.get('https://www.quora.com/bookmarked_answers')
 browser.maximize_window()
+sleep(2)
 quoraElems = browser.find_elements_by_xpath("//form/div/div/input")
 emailQuora = quoraElems[0]
 passwordQuora = quoraElems[1]
